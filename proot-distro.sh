@@ -28,7 +28,7 @@ set -e -u
 PROGRAM_NAME="proot-distro"
 
 # Where distribution plug-ins are stored.
-DISTRO_PLUGINS_DIR="@TERMUX_PREFIX@/etc/proot-distro"
+DISTRO_PLUGINS_DIR="~/proot-distro"
 
 # Base directory where script keeps runtime data.
 RUNTIME_DIR="@TERMUX_PREFIX@/var/lib/proot-distro"
