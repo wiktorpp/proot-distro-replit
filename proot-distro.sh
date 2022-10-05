@@ -1,4 +1,4 @@
-#!@TERMUX_PREFIX@/bin/bash
+#!/bin/bash
 ##
 ## Script for managing proot'ed Linux distribution installations in Termux.
 ##
@@ -31,7 +31,7 @@ PROGRAM_NAME="proot-distro"
 DISTRO_PLUGINS_DIR="~/proot-distro"
 
 # Base directory where script keeps runtime data.
-RUNTIME_DIR="@TERMUX_PREFIX@/var/lib/proot-distro"
+RUNTIME_DIR="~/var/lib/proot-distro"
 
 # Where rootfs tarballs are downloaded.
 DOWNLOAD_CACHE_DIR="${RUNTIME_DIR}/dlcache"
